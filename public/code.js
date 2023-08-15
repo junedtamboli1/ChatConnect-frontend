@@ -1,6 +1,6 @@
 (function(){
     const app = document.querySelector(".app");
-    const socket = io(https://chat-connect-server.vercel.app/);
+    const socket = io();
 
     let uname;
 
